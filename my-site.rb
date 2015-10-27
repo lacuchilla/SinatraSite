@@ -17,4 +17,8 @@ class MySite < Sinatra::Base
   get "/blogpost" do
     erb :blogpost
   end
+
+  get "/frenchpoetry" do
+    erb :frenchpoetry
+  end
 end
