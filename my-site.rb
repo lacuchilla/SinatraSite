@@ -15,7 +15,7 @@ class MySite < Sinatra::Base
   end
 
   get "/about_me" do
-    @header_links = ["about_me", "blog_post", "index", "french_poetry", "project_summary"]
+    # @header_links = ["about_me", "blog_post", "index", "french_poetry", "project_summary"]
     erb :about_me
   end
 
