@@ -1,3 +1,40 @@
-.centereverything {
+p {
+  font-family: Arial;
+}
+
+article {
+  color: #3333CC;
+}
+
+h1 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+uo li {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  color: #33CC33;
+  display: inline;
+  list-style-type: none;
+}
+
+.arty {
+  font-size: 200%;
+  border: 3px dotted #003366;
+
+}
+
+.awesome {
+  background-color: #CCFFFF;
+}
+
+header {
+  background-color: #00FFCC;
+}
+
+.plaid {
+  margin: auto;
+}
+
+.kirby {
   margin: auto;
 }

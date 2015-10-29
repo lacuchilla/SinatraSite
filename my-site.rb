@@ -15,6 +15,10 @@ class MySite < Sinatra::Base
   end
 
   get "/about_me" do
+    @header_links = [a href="project_summary">My Projects </a>
+    <li><a href="index">Homepage</a></li>
+    <li><a href="blog_post">My Blog</a></li>
+    <li><a href="french_poetry">French Poetry
     erb :about_me
   end
 
