@@ -10,19 +10,19 @@ class MySite < Sinatra::Base
     erb :index
   end
 
-  get "/projectsummary" do
+  get "/project_summary" do
     erb :project_summary
   end
 
-  get "/aboutme" do
+  get "/about_me" do
     erb :about_me
   end
 
-  get "/blogpost" do
+  get "/blog_post" do
     erb :blog_post
   end
 
-  get "/frenchpoetry" do
+  get "/french_poetry" do
     erb :french_poetry
   end
 end
