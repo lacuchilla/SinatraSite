@@ -1,6 +1,6 @@
-header {
-  margin: 50px auto 50px auto;
-
+body {
+  width: 960px;
+  margin: auto;
 }
 
 p {
@@ -41,13 +41,14 @@ li {
 }
 
 .awesome {
-  background-color: #CCFFFF;
+  background-color: #FFB3B3;
 }
 
 header, footer {
   background-color: #00FFCC;
 }
 
-img {
-  margin: 50px auto;
+img#spock {
+  display: block;
+  margin: auto;
 }
