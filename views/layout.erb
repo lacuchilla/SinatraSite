@@ -20,6 +20,7 @@
       <%= yield %>
   </body>
   <footer>
-    &copy; 2015 Amy Hunter
+    <% @current_year = Time.now.year %>
+    <p>&copy; <%= @current_year %> Amy Hunter </p>
   </footer>
 </html>
