@@ -12,4 +12,10 @@
     <article>We are now in the sixth week of classes, and I'm amazed at all of the things I have accomplished. I am writing programs in Ruby, making web pages using HTML, testing using Rspec and navigating the terminal like a champ. I'm really grateful for all of the support I have received from my fellow students and the Ada staff. Being a part of this program is an opportunity for me to grow personally as well as professionally, and it's been an intense and wonderful experience.</article>
   </section>
 
+  <section>
+    <p>This is a list of things I like:</p>
+      <% @things_i_like.each do |thing| %>
+        <li class = "fav_thing"><%= thing %></li>
+      <% end %>
+  </section>
 </html>

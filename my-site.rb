@@ -20,6 +20,7 @@ class MySite < Sinatra::Base
   end
 
   get "/blog_post" do
+    @things_i_like = ["Mariners Baseball", "Carving Pumpkins", "Black Cats", "NES Gaming", "Swing Dancing"]
     erb :blog_post
   end
 

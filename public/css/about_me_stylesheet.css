@@ -6,15 +6,21 @@ article {
   color: #3333CC;
 }
 
+.fav_thing {
+  color: #660066
+}
+
 h1 {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 li {
   font-family: "Poiret One", sans-serif;
+  font-weight: bold;
   color: #33CC33;
   display: inline;
   list-style-type: none;
+  margin: 2em;
 }
 
 .arty {
