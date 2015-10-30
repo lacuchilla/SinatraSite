@@ -1,3 +1,8 @@
+header {
+  margin: 50px auto 50px auto;
+
+}
+
 p {
   font-family: Arial;
 }
@@ -7,11 +12,17 @@ article {
 }
 
 .fav_thing {
-  color: #660066
+  color: #660066;
 }
 
 h1 {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: 120%;
+  margin: auto 50px;
+}
+
+h2 {
+  font-family: "Lobster", serif;
 }
 
 li {
@@ -33,10 +44,10 @@ li {
   background-color: #CCFFFF;
 }
 
-header {
+header, footer {
   background-color: #00FFCC;
 }
 
 img {
-  margin: auto;
+  margin: 50px auto;
 }

@@ -30,6 +30,7 @@ class MySite < Sinatra::Base
 
   get "/french_poetry" do
     @title = "French Poetry"
+    @french_word_definitions = ["houx = holly", "voiles = sails", "blanchit = whitens, lightens", "demeurer = remain"]
     erb :french_poetry
   end
 end

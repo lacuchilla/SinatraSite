@@ -1,8 +1,9 @@
 <html>
   <head>
-    <link href="css/about_me_stylesheet.css" rel="stylesheet">
+    <link href="css/master_stylesheet.css" rel="stylesheet">
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <title>
       <%= @title %>
     </title>
@@ -23,7 +24,6 @@
       <%= yield %>
   </body>
   <footer>
-    <% @current_year = Time.now.year %>
-    <p>&copy; <%= @current_year %> Amy Hunter </p>
+    <p>&copy; <%= Time.now.year %> Amy Hunter </p>
   </footer>
 </html>
